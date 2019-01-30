@@ -2,366 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eca5358c-2728-454b-ab24-7d7035105058" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pratice/src/com/exemplo/TesteClasse/TestandoLista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/assembly/bin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/config/person-services.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/config/person-services.service" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/config/self.check.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/delivery/uri-base.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/delivery/uri-prod.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/delivery/uri-qa.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/delivery/validate-call.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/delivery/validate-delivery.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/company/domain/Company.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/company/endpoint/resource/CompanyResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/company/repository/CompanyRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/company/repository/entity/CompanyEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/company/service/CompanyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/domain/Confirmation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/endpoint/EmailConfirmationEndpoints.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/endpoint/TelephoneConfirmationEndpoints.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/endpoint/payload/ConfirmTelephonePayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/endpoint/payload/SendConfirmationSMSPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/endpoint/payload/TokenPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/endpoint/resource/ConfirmationResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/endpoint/resource/ConfirmationResourceAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/repository/EmailConfirmationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/repository/TelephoneConfirmationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/ConfirmationGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/EmailConfirmationGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/EmailConfirmationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/TelephoneConfirmationGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/TelephoneConfirmationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/event/EmailChangeEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/event/Event.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/event/NewVisitorEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/event/NotConfirmedCellphoneEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/event/handler/EmailEventHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/event/handler/InscriptionEventHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/event/handler/TelephoneEventHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/event/notificador/EmailEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/event/notificador/InscriptionEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/event/notificador/TelephoneEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/event/observer/EmailEventObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/event/observer/EventObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/event/observer/TelephoneEventObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/provider/ConfirmationProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/provider/InterpolEmailProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/provider/InterpolSMSProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/provider/resource/CheckTokenResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/provider/resource/ConfirmationEmail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/provider/resource/ConfirmationSMS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/provider/resource/StatusCheckTokenResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/confirmation/service/rules/ConfirmationRules.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/domain/Email.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/domain/EmailType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/endpoint/EmailEndpointConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/endpoint/EmailEndpoints.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/endpoint/payload/EmailPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/endpoint/resource/EmailResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/endpoint/resource/EmailResourceAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/repository/DomainJpaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/repository/DomainRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/repository/EmailJpaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/repository/EmailRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/repository/EmailRepositoryConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/repository/entity/DomainEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/repository/entity/EmailEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/service/DomainService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/service/EmailChangeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/service/EmailFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/service/EmailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/service/validator/EmailErrorCodes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/service/validator/EmailSyntaxValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/service/validator/EmailValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/service/validator/ExternalEmailSyntaxValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/email/service/validator/InternalEmailSyntaxValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/repository/entity/ContactEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/domain/Telephone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/domain/TelephoneType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/endpoint/TelephoneEndpointConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/endpoint/TelephoneEndpoints.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/endpoint/payload/TelephoneCreationPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/endpoint/payload/TelephonePayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/endpoint/resource/TelephoneResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/endpoint/resource/TelephoneResourceAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/repository/TelephoneJpaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/repository/TelephoneRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/repository/TelephoneRepositoryConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/repository/converter/TelephoneTypeConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/repository/entity/TelephoneEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/service/TelephoneChangeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/service/TelephoneService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/contact/telephone/service/validator/TelephoneValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/domain/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/endpoint/PersonEndpointConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/endpoint/PersonEndpoints.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/endpoint/payload/create/CompanyCreationPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/endpoint/payload/create/IndividualCreationPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/endpoint/payload/create/PersonCreationPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/endpoint/payload/create/UserCreationPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/endpoint/payload/update/PersonUpdatePayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/endpoint/payload/update/UserUpdatePayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/endpoint/payload/validate/PersonValidationPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/endpoint/payload/validate/UserValidationPayload.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/endpoint/resource/PersonResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/endpoint/resource/PersonResourceAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/individual/domain/Gender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/individual/domain/Individual.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/individual/endpoint/resource/IndividualResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/individual/repository/IndividualRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/individual/repository/converter/GenderConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/individual/repository/entity/IndividualEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/individual/repository/entity/RGEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/individual/service/IndividualService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/authorization/AuthorizationInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/authorization/GibraltarAuthConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/change/Change.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/change/Field.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/configuration/HazelcastConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/configuration/RemoteConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/configuration/repository/CacheConfigurationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/configuration/repository/ConfirmationConfigurationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/configuration/repository/EventConfigurationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/configuration/repository/InscriptionConfigurationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/configuration/repository/IntegrationConfigurationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/configuration/repository/LogConfigurationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/configuration/repository/PersonConfigurationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/configuration/repository/SecurityConfigurationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/configuration/repository/TelephoneConfigurationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/configuration/repository/ToggleConfigurationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/configuration/repository/UserConfigurationRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/error/Error.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/error/ErrorResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/error/old/ErrorItemBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/error/old/ErrorMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/error/old/Errors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/error/old/ErrorsWraper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/exception/BaseException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/exception/ConflictException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/exception/ForbiddenException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/exception/GatewayTimeoutException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/exception/InternalServerErrorException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/exception/InterpolException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/exception/InvalidTokenException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/exception/NotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/exception/NotModifiedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/exception/UnauthorizedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/exception/ValidationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/exception/code/ErrorCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/exception/code/ErrorCodes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/exception/handler/ExceptionAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/feign/FeignConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/feign/FeignRequestInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/feign/codec/URLPatternExtractor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/feign/decoder/CustomErrorDecoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/feign/encoder/DefaultEncoderConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/feign/encoder/FormEncoderConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/feign/encoder/JsonEncoderConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/health/IntegrationEndpoints.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/logging/LogHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/logging/LogMasker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/logging/LoggerInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/logging/RequestWrapperFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/logging/tracker/RequestData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/logging/tracker/RequestTracked.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/notificador/NotificadorCadastralService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/notificador/NotificadorCadastralSubscriber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/notificador/SubscriptionResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/profiling/CustomProfilingMonitorInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/profiling/ProfilingConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/cubus/core/CubusCoreGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/cubus/core/resource/ConfirmContactRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/cubus/core/resource/ContactRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/cubus/core/resource/LegacyInscriptionResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/cubus/core/resource/LegacyInscriptionWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/cubus/inscription/CubusInscriptionsGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/cubus/inscription/resource/InscriptionRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/cubus/inscription/resource/InscriptionResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/cubus/inscription/resource/OfferResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/cubus/inscription/resource/OperationIdRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/event/EventGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/event/EventService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/event/resource/ChangeResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/event/resource/ChangeResourceAssembler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/event/resource/ChangedAttributeResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/event/resource/EventRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/event/resource/EventResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/event/resource/EventWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/event/resource/FieldResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/interpol/handler/AuthorizationErrorCodeHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/interpol/handler/DefaultInterpolErrorCodeHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/interpol/handler/InterpolInternalServerErrorCodeHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/interpol/handler/InterpolResponseCodeHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/interpol/handler/InterpolResponseCodeHandlerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/interpol/handler/InvalidTokenErrorCodeHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/repository/interpol/handler/UnknownStateErrorCodeHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/web/HeaderValidatorInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/web/Headers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/infrastructure/web/WebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/inscription/domain/Inscription.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/inscription/repository/InscriptionRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/inscription/repository/InscriptionRepositoryConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/inscription/service/InscriptionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/repository/PersonJpaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/repository/PersonRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/repository/PersonRepositoryConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/repository/entity/PersonEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/service/PersonChangeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/service/PersonService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/service/validator/CompanyValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/service/validator/IndividualValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/service/validator/PersonValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/service/validator/UserValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/domain/Domain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/domain/Status.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/endpoint/UserEndpointConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/endpoint/resource/UserResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/password/entity/PasswordEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/password/repository/PasswordRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/password/service/GaudiGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/password/service/PasswordService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/password/service/domain/Cryptography.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/repository/LoginRestrictionJpaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/repository/LoginRestrictionMaskJpaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/repository/UserJpaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/repository/UserRepositoryConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/repository/converter/StatusConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/repository/entity/LoginRestrictionEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/repository/entity/LoginRestrictionMaskEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/repository/entity/UserEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/service/UserChangeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/person/user/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/authorization.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/reconf.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/IntegrationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/TestConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/contact/confirmation/endpoint/EmailConfirmationEndpointsIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/contact/confirmation/endpoint/TelephoneConfirmationEndpointsIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/contact/confirmation/endpoint/TelephoneConfirmationEndpointsNotificadorIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/contact/confirmation/service/event/observer/EmailEventObserverIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/contact/confirmation/service/event/observer/TelephoneEventObserverIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/contact/email/endpoint/EmailEndpointsGetIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/contact/email/endpoint/EmailEndpointsPatchIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/contact/email/endpoint/EmailEndpointsPostIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/contact/email/service/EmailServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/contact/email/service/validator/Invalid_EmailSyntaxValidatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/contact/email/service/validator/Valid_EmailSyntaxValidatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/contact/telephone/endpoint/TelephoneEndpointsGetIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/contact/telephone/endpoint/TelephoneEndpointsPatchIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/contact/telephone/endpoint/TelephoneEndpointsPostIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/contact/telephone/service/TelephoneServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/endpoint/PersonEndpointsGetIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/endpoint/PersonEndpointsPatchIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/endpoint/PersonEndpointsPostIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/person/infrastructure/authorization/AuthorizationInterceptorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldConfirmAlternativeEmail/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldConfirmAlternativeEmail/interpol-send-email.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldConfirmAlternativeEmail/interpol-verify-token.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldConfirmEmailWithReferenceId/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldConfirmEmailWithReferenceId/core-get-unconfirmed-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldConfirmEmailWithReferenceId/inscription-activate.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldConfirmEmailWithReferenceId/interpol-send-email.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldConfirmEmailWithReferenceId/interpol-verify-token.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldConfirmMainEmail/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldConfirmMainEmail/core-get-unconfirmed-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldConfirmMainEmail/inscription-activate.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldConfirmMainEmail/interpol-send-email.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldConfirmMainEmail/interpol-verify-token.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldRetryAndReturnInternalErrorWhenInterpolTimeout/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldRetryAndReturnInternalErrorWhenInterpolTimeout/interpol-send-email-timeout.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldReturnBadRequestWhenEmailIsAlreadyConfirmed/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldReturnBadRequestWhenEmailIsInConfirmation/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldReturnBadRequestWhenEmailIsInConfirmation/interpol-send-email.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldReturnInternalErrorWhenInterpolDoesntSendLocation/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldReturnInternalErrorWhenInterpolDoesntSendLocation/interpol-send-email.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldReturnInternalErrorWhenInterpolLocationDoesntHaveToken/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldReturnInternalErrorWhenInterpolLocationDoesntHaveToken/interpol-send-email.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldReturnInternalErrorWhenInterpolLocationIsInvalid/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldReturnInternalErrorWhenInterpolLocationIsInvalid/interpol-send-email.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldSendAlternativeEmailConfirmationEmail/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldSendAlternativeEmailConfirmationEmail/interpol-send-email.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldSendConfirmationEmail/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailConfirmationEndpointsIT/shouldSendConfirmationEmail/interpol-send-email.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEndpointsGetIT/shouldReturnEmailsFromUser/core-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEndpointsPatchIT/shouldChangeEmail/core-update-email.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEndpointsPatchIT/shouldChangeEmail/event-log-event.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEventObserverIT/shouldNotRetryEmailEvent/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEventObserverIT/shouldNotRetryEmailEvent/interpol-send-email.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEventObserverIT/shouldNotRetryNewVisitorEvent/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEventObserverIT/shouldNotRetryNewVisitorEvent/interpol-send-email.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEventObserverIT/shouldNotSendVisitorEmailWhenDomainIsBlacklisted/core-user-with-blacklisted-email.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEventObserverIT/shouldNotSendVisitorEmailWhenPersonDoesntExist/core-user-not-found.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEventObserverIT/shouldRetryEmailEvent/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEventObserverIT/shouldRetryEmailEvent/interpol-send-email-timeout.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEventObserverIT/shouldRetryNewVisitorEvent/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEventObserverIT/shouldRetryNewVisitorEvent/interpol-send-email-timeout.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEventObserverIT/shouldSendConfirmationEmailToNewVisitor/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEventObserverIT/shouldSendConfirmationEmailToNewVisitor/interpol-send-email.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/emailEventObserverIT/shouldSendConfirmationEmailWhenEmailChanges/interpol-send-email.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/personEndpointsGetIT/shouldReturnChanges/event-list.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/personEndpointsPatchIT/shouldChangeExternalLogin/core-get-inscription.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/personEndpointsPatchIT/shouldChangeExternalLogin/event-log-event.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/personEndpointsPatchIT/shouldChangeExternalLogin/inscription-activate.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/personEndpointsPatchIT/shouldChangeInternalLogin/event-log-event.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/personEndpointsPatchIT/shouldChangeUOLLogin/event-log-event.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/personEndpointsPostIT/shouldCreateUser/gaudi-crypt-ok.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/personEndpointsPostIT/shouldCreateUser/inscription-create.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/personEndpointsPostIT/shouldCreateUserAndIndividual/gaudi-crypt-ok.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/personEndpointsPostIT/shouldCreateUserAndIndividual/inscription-create.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/personEndpointsPostIT/shouldCreateUserWithParent/gaudi-crypt-ok.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/personEndpointsPostIT/shouldCreateUserWithParent/inscription-activate.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/personEndpointsPostIT/shouldCreateUserWithParent/inscription-create.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/personEndpointsPostIT/shouldReturnInternalErrorWhenFailsToEncryptPassword/gaudi-crypt-error.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneConfirmationEndpointsIT/shouldConfirmTelephone/interpol-send-sms.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneConfirmationEndpointsIT/shouldConfirmTelephone/interpol-verify-token.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneConfirmationEndpointsIT/shouldConfirmTelephoneByNumber/interpol-send-sms.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneConfirmationEndpointsIT/shouldConfirmTelephoneByNumber/interpol-verify-token.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneConfirmationEndpointsIT/shouldRetryAndReturnInternalErrorWhenInterpolTimeout/interpol-send-sms-timeout.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneConfirmationEndpointsIT/shouldReturnBadRequestWhenTelephoneIsInConfirmation/interpol-send-sms.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneConfirmationEndpointsIT/shouldSendConfirmationSMS/interpol-send-sms.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneConfirmationEndpointsIT/shouldSendConfirmationSMSToNumber/interpol-send-sms.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneEndpointsGetIT/shouldReturnChanges/event-list.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneEndpointsPatchIT/shouldChangeAllTelephoneFields/event-log-event.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneEndpointsPatchIT/shouldChangeOnlyCellphoneNumber/event-log-event.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneEndpointsPatchIT/shouldChangeOnlyDDD/event-log-event.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneEndpointsPatchIT/shouldChangeOnlyTelephoneNumber/event-log-event.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneEventObserverIT/shouldNotRetrySMS/core-contact.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneEventObserverIT/shouldNotRetrySMS/interpol-send-sms.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneEventObserverIT/shouldNotSendSMSWhenContactDoesntExist/core-contact.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneEventObserverIT/shouldRetrySMS/core-contact.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneEventObserverIT/shouldRetrySMS/interpol-send-sms.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneEventObserverIT/shouldSendConfirmationSMS/core-contact.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/mappings/telephoneEventObserverIT/shouldSendConfirmationSMS/interpol-send-sms.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/sql/clean-all.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/sql/email-confirmation-endpoints.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/sql/email-endpoints-get.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/sql/email-endpoints-patch.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/sql/email-endpoints-post.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/sql/email-event-observer.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/sql/person-endpoints-get.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/sql/person-endpoints-patch.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/sql/person-endpoints-post.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/sql/telephone-confirmation-endpoints.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/sql/telephone-endpoints-get.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/sql/telephone-endpoints-patch.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/sql/telephone-endpoints-post.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/resources/sql/telephone-event-observer.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/scala/infrastructure/Environment.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/scala/infrastructure/GibraltarSignatureCalculator.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/scala/simulations/ContactConfirmationSimulation.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -379,12 +20,43 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="18" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -398,6 +70,13 @@
       <map>
         <entry key="$USER_HOME$/stydyProject/cubus-core" value="PREVIEW" />
       </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
@@ -420,11 +99,41 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="chavesjogos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chavesjogos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chavesjogos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chavesjogos" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chavesjogos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chavesjogos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chavesjogos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chavesjogos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548869530564" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.30910763" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -449,20 +158,36 @@
       <option name="presentableId" value="Default" />
       <updated>1548868385785</updated>
     </task>
+    <task id="LOCAL-00001" summary="Subindo projeto -">
+      <created>1548868742254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548868742254</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Subindo projeto -">
+      <created>1548868996918</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548868996918</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="694" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3283859" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3283859" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -484,13 +209,84 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Subindo projeto -" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subindo projeto -" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30910763" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30910763" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>chavesjogos</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30910763" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -498,6 +294,17 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.30910763" />
               </list>
             </option>
           </splitter-proportions>
