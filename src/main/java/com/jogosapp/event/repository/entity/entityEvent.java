@@ -11,14 +11,14 @@ public class entityEvent extends AbstractEntity {
   private String name;
   private String address;
   private Date date;
-  private String tipo;
+  private String type;
 
-  public String getTipo() {
-    return tipo;
+  public String getType() {
+    return type;
   }
 
-  public void setTipo(String tipo) {
-    this.tipo = tipo;
+  public void setType(String tipo) {
+    this.type = tipo;
   }
 
   public String getName() {
